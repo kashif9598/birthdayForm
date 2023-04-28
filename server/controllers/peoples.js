@@ -7,4 +7,14 @@ const create = async (req, res) => {
     res.send(result);
 }
 
-module.exports = { create }
+//get people data
+const getPeople = async (req, res) => {
+    let peoples = await Peoples.find()
+    if(peoples.length > 0){
+        res.send(peoples)
+    } else {
+        res.send({ result: "No result found"})
+    }
+}
+
+module.exports = { create, getPeople }

@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #3a3334;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.left{
+    margin: 10px;
+}
+.homeLink{
+    color: burlywood;
+    text-decoration: none;
+}
+.right {
+    margin: 10px
+}
+.pages{
+    margin: 15px;
+    color: burlywood;
+    text-decoration: none;
+}
+.active {
+font-weight: 600;
+}
